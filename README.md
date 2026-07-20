@@ -10,7 +10,7 @@ Celine Snedden(1), Dylan Morris (1), Thomas Friedrich (2, 3), James Lloyd-Smith(
 
 ## Repository information
 
-This repository provides the data and code to reproduce the analyses presented in the associated paper (Snedden et al., 2026; _Science Advances_). Instructions to recreate all analyses are summarized below, as is a description of the database.
+This repository provides the data and code to reproduce the analyses presented in the associated paper (Snedden et al., 2026). Instructions to recreate all analyses are summarized below, as is a description of the database.
 
 
 ## Article abstract
@@ -57,11 +57,6 @@ To run our analyses, you will need to install certain software, described below.
 
 
 ## Database description
-
-*_idx variables (assay_idx, route_idx, age_idx, sex_idx, sp_idx, location_idx) — Explain that these are integer encodings used for statistical modeling, with -9999 representing unknown where applicable.
-prob_male, prob_female, prob_geriatric — These are somewhat unusual. Explain that they represent probabilistic assignments when only group-level information (rather than individual metadata) was available.
-dose_* variables — Note that these are log10 doses delivered to specific anatomical compartments, not measured viral loads.
-unit_rep vs unit_subgrp, sample_rep vs sample_grp, viral_strain_rep vs viral_strain_grp, inoc_route_rep vs inoc_route_subgrp — A single sentence explaining that *_rep retains the original study terminology whereas the grouped/subgroup versions are standardized would help readers a lot.
 
 Each column is explained below in the order they appear in `database-clean.csv`. Please note the following general conventions:
 - `_idx` variables (`assay_idx`, `route_idx`, `age_idx`, `sex_idx`, `sp_idx`, `location_idx`) are integer encodings used for statistical modeling, with -9999 representing an unknown where applicable.
