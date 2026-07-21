@@ -1,6 +1,6 @@
 # Exposure route, not dose, is the primary driver of infection patterns for a respiratory virus
 
-Celine Snedden(1), Dylan Morris (1), Thomas Friedrich (2, 3), James Lloyd-Smith(1, 4)
+Celine Snedden (1), Dylan Morris (1), Thomas Friedrich (2, 3), James Lloyd-Smith (1, 4)
 
 1. Department of Ecology and Evolutionary Biology, University of California, Los Angeles, Los Angeles, CA, USA
 2. Department of Pathobiological Sciences, University of Wisconsin-Madison; Madison, Wisconsin, USA.
@@ -12,6 +12,7 @@ Celine Snedden(1), Dylan Morris (1), Thomas Friedrich (2, 3), James Lloyd-Smith(
 
 This repository provides the data and code to reproduce the analyses presented in the associated paper (Snedden et al., 2026). Instructions to recreate all analyses are summarized below, as is a description of the database.
 
+Please note that the data from one study (Johnston et al., 2021; https://doi.org/10.1371/journal.pone.0246366) used in our analysis is not included in any of the data files due to a data sharing agreement. Interested readers can submit their own requests following the instructions in the source paper. Because of this, reproductions of our sample sizes calculations and analyses may yield different results due to reduce samples sizes. 
 
 ## Article abstract
 
