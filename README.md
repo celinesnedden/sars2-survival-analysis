@@ -37,9 +37,9 @@ All content is organized into the following folders:
 
 - `data`: contains data as `.csv` files, including the database (`database-clean.csv`) and the extracted event times (`df-event-times.csv`). 
 
-- `outputs`: contains all output files, including model fits, model predictions, and figures / tables.
+- `outputs`: contains all output files, including figures / tables.
   - just as for code files, each output is marked as a figure (`fig`) or a table (`tbl`) preceding the corresponding number. In many cases, the code generating the figure/table can be found with the corresponding name in the code file. Model predictions are generated in `04-generate-predictions.R`
-  - `outputs/fits`: contains the final model fit.
+  - Note that the final model fit and the generated model predictions are too large to include in this repository. They will be uploaded in the corresponding Zenodo location (see the mansuscript for the appropriate link) under the `outputs/fits` and `outputs/predictions` folders. 
 
 
 ## Installing software dependencies
