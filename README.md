@@ -39,7 +39,7 @@ All content is organized into the following folders:
 
 - `outputs`: contains all output files, including model fits, model predictions, and figures / tables.
   - just as for code files, each output is marked as a figure (`fig`) or a table (`tbl`) preceding the corresponding number. In many cases, the code generating the figure/table can be found with the corresponding name in the code file. Model predictions are generated in `04-generate-predictions.R`
-  - `outputs/fits`: contains the final model fits.
+  - `outputs/fits`: contains the final model fit.
 
 
 ## Installing software dependencies
